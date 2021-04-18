@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="https://www.standart-namespace.com/" xmlns:gun="https://www.gun-shop.com/" xmlns:fish="https://www.fish-shop.com/">
+    <gun:shop>
+        <gun:guns>
+            <gun:gun name="Revolver" price="1250$" max_ammo="7" />
+            <gun:gun name="M4A1" price="3250$" max_ammo="30" />
+            <gun:gun name="9mm Pistol" price="450$" max_ammo="12" />
+        </gun:guns>
+    </gun:shop>
+
+    <fish:shop>
+        <fish:fishes>
+            <fish:fish name="Shark" price="1000$" />
+            <fish:fish name="Tuna" price="5$" />
+            <fish:fish name="Capelin" price="1$" />
+        </fish:fishes>
+    </fish:shop>
+
+    <el1:element1 xmlns:el1="Element#1 Unique String">
+        <el1:innerElement>
+
+        </el1:innerElement>
+    </el1:element1>
+
+
+    <el2:element2 xmlns:el2="Element#2 Unique String">
+        <el2:innerElement>
+
+        </el2:innerElement>
+    </el2:element2>
+
+
+    <el3:element3 xmlns:el3="Element#3 Unique String">
+        <el3:innerElement>
+            <el1:innerInnerElement> <!-- Так нельзя, потому что пространство el1 объявлено только в первом элементе, потому может использовать только внутри первого элемента и его внутренних элементов. -->
+
+            </el1:innerInnerElement>
+        </el3:innerElement>
+    </el3:element3>
+
+</root>

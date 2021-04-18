@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <database:oracle xmlns:database="Unique ID #1">
+        <connection value="jdbc:oracle:thin:@10.220.140.48:1521:test1" />
+        <user value="root" />
+        <password value="111" />
+    </database:oracle>
+
+    <oracle:oracle xmlns:oracle = "Unique ID #2">
+        Сегодня вы будете заняты весь день.
+    </oracle:oracle>
+</root>

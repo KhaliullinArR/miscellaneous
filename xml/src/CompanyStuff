@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE company [
+        <!ELEMENT employee EMPTY>
+        <!ELEMENT employees (employee+)>
+        <!ELEMENT office (employees)>
+        <!ELEMENT offices (office+)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT company (name, offices)>
+
+
+        <!-- Добавление атрибутов для элементов employee и office -->
+        <!ATTLIST employee
+                name CDATA #REQUIRED
+                job  CDATA #REQUIRED
+                >
+
+        <!ATTLIST office
+                floor CDATA #REQUIRED
+                room  CDATA #REQUIRED
+                >
+        <!--Добавление сущностей-->
+        <!ENTITY M "Maksim">
+        <!ENTITY I "Ivan">
+        <!ENTITY F "Franklin">
+
+        ]>
+
+
+
+
+<company>
+    <name>IT-Heaven</name>
+    <offices>
+        <office floor="1" room="1">
+            <employees>
+                <employee name="Maksim" job="Middle Software Developer"/>
+                <employee name="Ivan" job="Junior Software Developer"/>
+                <employee name="Franklin" job="Junior Software Developer"/>
+            </employees>
+        </office>
+        <office floor="1" room="2">
+            <employees>
+                <employee name="Herald" job="Middle Software Developer"/>
+                <employee name="Adam" job="Middle Software Developer"/>
+                <employee name="Leroy" job="Junior Software Developer"/>
+            </employees>
+        </office>
+    </offices>
+</company>
