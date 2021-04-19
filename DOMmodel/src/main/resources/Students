@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <students>
+        <student name="Maksim" course="3" specialization="CE" />
+        <student name="Stephan" course="1" specialization="CS" />
+        <student name="Irvin" course="2" specialization="CE" />
+    </students>
+
+    <professors>
+        <professor name="Herald" experience="7 years in University" discipline="Math" />
+        <professor name="Adam" experience="4 years in University" discipline="Programming" />
+        <professor name="Anton" experience="6 years in University" discipline="English" />
+    </professors>
+
+    <service>
+        <member name="John" position="janitor" />
+        <member name="Jordan" position="janitor" />
+        <member name="Mike" position="janitor" />
+    </service>
+</database>
