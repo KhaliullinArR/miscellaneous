@@ -1,0 +1,8 @@
+апр. 22, 2021 8:21:10 PM UseLogger doSomeThingAndLog
+SEVERE: Info Log
+апр. 22, 2021 8:21:11 PM UseLogger doSomeThingAndLog
+SEVERE: Info Log
+апр. 22, 2021 8:21:11 PM UseLogger doSomeThingAndLog
+WARNING: Info Log
+апр. 22, 2021 8:21:11 PM UseLogger doSomeThingAndLog
+INFO: Info Log
